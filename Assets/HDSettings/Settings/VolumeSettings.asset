@@ -159,7 +159,7 @@ MonoBehaviour:
     m_Value: 0.17
   multiplier:
     m_OverrideState: 1
-    m_Value: 0.05
+    m_Value: 0.005
     min: 0
   updateMode:
     m_OverrideState: 1
@@ -196,5 +196,5 @@ MonoBehaviour:
     showAlpha: 1
     showEyeDropper: 1
   enableSunDisk:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0

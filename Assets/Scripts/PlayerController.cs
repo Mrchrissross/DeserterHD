@@ -4,18 +4,27 @@ using UnityEngine.UI;
 [RequireComponent(typeof(PlayerMotor))]
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField]
-    private float       speed = 5f,
-                        normalSpeed,
-                        sprintSpeed = 8f,
-                        crouchSpeed = 1.5f,
-                        lookSensitivity = 3f;
+    [Header("Speed Settings")]
+    [Tooltip("This is the speed that the player can run when not sprinting.")]
+    public float        speed = 5f;
+    [Tooltip("This is the players speed whilst sprinting.")]
+    public float        sprintSpeed = 8f;
+    [Tooltip("This is the players movement speed whilst crouching.")]
+    public float        crouchSpeed = 1.5f;
+    private float       normalSpeed;
 
-    [Range(1, 10)]
+    [Header("Look Settings")]
+    [Tooltip("This is the speed at which you can look around.")]
+    public float        lookSensitivity = 3f;
+
+    [Header("Extra Settings")]
+    [Tooltip("The height that the player can jump."), Range(1, 10)]
     public float        jumpHeight = 4.5f;
-    
-    [Range(10, 12)]
+    [Tooltip("This is the speed that the player can climb up ladders."), Range(10, 12)]
     public float        climbSpeed = 11f;
+    [Header("Texts")]
+    [Tooltip("Press E to open door.")]
+    public Text doorText;
 
     private bool        canUseDoor,
                         canUseUnlockableDoor,
@@ -34,11 +43,10 @@ public class PlayerController : MonoBehaviour
                         _yRot,
                         _xRot;
 
-    public Text         doorText;
     private Animator    _animator;
     private PlayerMotor motor;
     static public bool  playerCanMove = true;
-    static public bool isCrouched = false;
+    static public bool  isCrouched = false;
 
     void Start()
     {        
@@ -156,16 +164,18 @@ public class PlayerController : MonoBehaviour
         #region Doors
         if ((canUseDoor) && (ItemManager.visibleItem == ""))
         {
-            if (door.GetComponent<DoorScript>().open == true)
+            bool doorOpened = door.GetComponent<DoorScript>().open;
+
+            if (doorOpened)
                 doorText.text = "Press E to close";
-            else if (door.GetComponent<DoorScript>().open != true)
+            else if (!doorOpened)
                 doorText.text = "Press E to open";
 
             if (Input.GetButtonDown("Use"))
             {
-                if (door.GetComponent<DoorScript>().open != true)
+                if (!doorOpened)
                     door.GetComponent<DoorScript>().open = true;
-                else if (door.GetComponent<DoorScript>().open == true)
+                else if (doorOpened)
                     door.GetComponent<DoorScript>().open = false;
             }
         }
@@ -174,22 +184,21 @@ public class PlayerController : MonoBehaviour
 
         if ((canUseUnlockableDoor) && (ItemManager.visibleItem == ""))
         {
+            bool doorOpened = door.GetComponent<LockedDoorScript>().open;
 
-            if (door.GetComponent<LockedDoorScript>().open == true)
+            if (doorOpened)
                 doorText.text = "Press E to close";
-            else if (door.GetComponent<LockedDoorScript>().open != true)
+            else if (!doorOpened)
                 doorText.text = "Press E to open";
 
             if (Input.GetButtonDown("Use"))
             {
-                if (door.GetComponent<LockedDoorScript>().open != true)
+                if (!doorOpened)
                     door.GetComponent<LockedDoorScript>().open = true;
-                else if (door.GetComponent<LockedDoorScript>().open == true)
+                else if (doorOpened)
                     door.GetComponent<LockedDoorScript>().open = false;
             }
         }
-        else
-            doorText.text = "";
         #endregion
 
         #region FlashLight

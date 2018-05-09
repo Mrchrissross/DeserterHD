@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{6FFBDFF3-8738-807B-0C1E-6B2223C502D1}</ProjectGuid>
+    <ProjectGuid>{453A2C39-E515-8D5F-7700-82A869F63DCF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -74,37 +74,37 @@
     <Compile Include="Assets\Scripts\SpeechManager.cs" />
     <Compile Include="Assets\Scripts\WatchGuardScript.cs" />
     <Reference Include="com.unity.render-pipelines.core.Editor">
-      <HintPath>C:/Users/Chris Ross/Documents/CirclesVsSquares/Library/ScriptAssemblies/com.unity.render-pipelines.core.Editor.dll</HintPath>
+      <HintPath>C:/Users/Chris Ross/Documents/GitHub/DeserterHD/Library/ScriptAssemblies/com.unity.render-pipelines.core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.render-pipelines.core.Runtime">
-      <HintPath>C:/Users/Chris Ross/Documents/CirclesVsSquares/Library/ScriptAssemblies/com.unity.render-pipelines.core.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Chris Ross/Documents/GitHub/DeserterHD/Library/ScriptAssemblies/com.unity.render-pipelines.core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/Chris Ross/Documents/CirclesVsSquares/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Chris Ross/Documents/GitHub/DeserterHD/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Chris Ross/Documents/CirclesVsSquares/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Chris Ross/Documents/GitHub/DeserterHD/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Chris Ross/Documents/CirclesVsSquares/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Chris Ross/Documents/GitHub/DeserterHD/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.render-pipelines.high-definition.Runtime">
-      <HintPath>C:/Users/Chris Ross/Documents/CirclesVsSquares/Library/ScriptAssemblies/com.unity.render-pipelines.high-definition.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Chris Ross/Documents/GitHub/DeserterHD/Library/ScriptAssemblies/com.unity.render-pipelines.high-definition.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.postprocessing.Editor">
-      <HintPath>C:/Users/Chris Ross/Documents/CirclesVsSquares/Library/ScriptAssemblies/com.unity.postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Users/Chris Ross/Documents/GitHub/DeserterHD/Library/ScriptAssemblies/com.unity.postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.postprocessing.Runtime">
-      <HintPath>C:/Users/Chris Ross/Documents/CirclesVsSquares/Library/ScriptAssemblies/com.unity.postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Chris Ross/Documents/GitHub/DeserterHD/Library/ScriptAssemblies/com.unity.postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.render-pipelines.high-defintion.Editor">
-      <HintPath>C:/Users/Chris Ross/Documents/CirclesVsSquares/Library/ScriptAssemblies/com.unity.render-pipelines.high-defintion.Editor.dll</HintPath>
+      <HintPath>C:/Users/Chris Ross/Documents/GitHub/DeserterHD/Library/ScriptAssemblies/com.unity.render-pipelines.high-defintion.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Chris Ross/Documents/CirclesVsSquares/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Chris Ross/Documents/GitHub/DeserterHD/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.render-pipelines.core.IncludePaths">
-      <HintPath>C:/Users/Chris Ross/Documents/CirclesVsSquares/Library/ScriptAssemblies/com.unity.render-pipelines.core.IncludePaths.dll</HintPath>
+      <HintPath>C:/Users/Chris Ross/Documents/GitHub/DeserterHD/Library/ScriptAssemblies/com.unity.render-pipelines.core.IncludePaths.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.0b3/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

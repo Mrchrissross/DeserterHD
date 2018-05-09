@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -49410,12 +49410,12 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 47.746483
-  m_Range: 9
+  m_Intensity: 3.2308452
+  m_Range: 2.5600114
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -49433,8 +49433,8 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
+  m_ColorTemperature: 4703
+  m_UseColorTemperature: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &1004623083
@@ -49494,7 +49494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 600
+  punctualIntensity: 40.6
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1
@@ -89689,7 +89689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  directionalIntensity: 1.45
+  directionalIntensity: 1.5
   punctualIntensity: 600
   areaIntensity: 200
   m_InnerSpotPercent: 0
@@ -89719,7 +89719,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 0.6320754, g: 0.617168, b: 0.617168, a: 1}
-  m_Intensity: 1.45
+  m_Intensity: 1.5
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10

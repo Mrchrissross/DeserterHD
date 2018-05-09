@@ -196,5 +196,5 @@ MonoBehaviour:
     showAlpha: 1
     showEyeDropper: 1
   enableSunDisk:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0

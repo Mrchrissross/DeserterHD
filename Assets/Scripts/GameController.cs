@@ -12,6 +12,8 @@ public class GameController : MonoBehaviour
     public Text             factText;
 
     [Header("Spawn Settings")]
+    [Tooltip("This enables the tool below, allowing the you to choose where the player spawns and locking the spawn point. This must off while attempting proper playthrough.")]
+    public bool             enabledAltSpawning = false;
     [Tooltip("Allows you to choose where you would like the player to spawn.")]
     public int              spawnPoint = 1;
     private List<string>    Locations = new List<string>();
@@ -35,8 +37,7 @@ public class GameController : MonoBehaviour
     private List<int>       factNumbers = new List<int>();
     private float           restartDelay = 2;
 
-    private bool            gameOver = false,
-                            spawnedPlayer = false;
+    private bool            gameOver = false;
     #endregion
 
     #region Singleton
@@ -60,18 +61,15 @@ public class GameController : MonoBehaviour
             Locations.Add(this.transform.Find("PlayerSpawnPoints").GetChild(i).name);
         }
 
-        DataManager.SpawnLocation = Locations[spawnPoint - 1];
+        if(enabledAltSpawning)
+            DataManager.SpawnLocation = Locations[spawnPoint - 1];
+
+        player.transform.position = this.transform.Find("PlayerSpawnPoints").Find(DataManager.SpawnLocation).position;
+        player.transform.rotation = this.transform.Find("PlayerSpawnPoints").Find(DataManager.SpawnLocation).rotation;
     }
 
     void Update()
     {
-        if (!spawnedPlayer)
-        {
-            player.transform.position = this.transform.Find("PlayerSpawnPoints").Find(DataManager.SpawnLocation).position;
-            player.transform.rotation = this.transform.Find("PlayerSpawnPoints").Find(DataManager.SpawnLocation).rotation;
-            spawnedPlayer = true;
-        }
-
         spawnLocation = DataManager.SpawnLocation;
 
         if (playerFound == true)      

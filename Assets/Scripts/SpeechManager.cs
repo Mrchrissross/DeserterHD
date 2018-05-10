@@ -69,7 +69,7 @@ public class SpeechManager : MonoBehaviour {
                     if (SceneManager.GetActiveScene().name == "Area 1")
                     {
                         DataManager.TempPoints = DataManager.Points;
-                        DataManager.SpawnLocation = "PlayerSpawnPoint2";
+                        DataManager.SpawnLocation = "PlayerSpawnPoint1";
                         SceneManager.LoadScene("Area 2");                   
                     }
                     else
@@ -89,7 +89,7 @@ public class SpeechManager : MonoBehaviour {
             case "SpeechPoint (9)":
                 {
                     DataManager.TempPoints = DataManager.Points;
-                    DataManager.SpawnLocation = "PlayerSpawnPoint3";
+                    DataManager.SpawnLocation = "PlayerSpawnPoint2";
                     Speak(10);
                     break;
                 }

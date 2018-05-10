@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.03407363, g: 0.03402612, b: 0.028952599, a: 1}
+  m_IndirectSpecularColor: {r: 0.03407363, g: 0.03402612, b: 0.028952591, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 10
+  punctualIntensity: 700
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1
@@ -440,7 +440,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 5
+  punctualIntensity: 300
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1
@@ -1011,7 +1011,7 @@ Prefab:
     - target: {fileID: 108696215450647206, guid: e777e6c22e8df25478ad11555567c055,
         type: 2}
       propertyPath: m_Intensity
-      value: 0.39788735
+      value: 55.704227
       objectReference: {fileID: 0}
     - target: {fileID: 108696215450647206, guid: e777e6c22e8df25478ad11555567c055,
         type: 2}
@@ -1021,7 +1021,7 @@ Prefab:
     - target: {fileID: 108696215450647206, guid: e777e6c22e8df25478ad11555567c055,
         type: 2}
       propertyPath: m_ColorTemperature
-      value: 3580
+      value: 5682
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
@@ -10835,7 +10835,7 @@ Prefab:
     - target: {fileID: 108674905131565670, guid: d62547ffc37e7db4b9e6ac9de7083de2,
         type: 2}
       propertyPath: m_Intensity
-      value: 0.39788735
+      value: 55.704227
       objectReference: {fileID: 0}
     - target: {fileID: 108674905131565670, guid: d62547ffc37e7db4b9e6ac9de7083de2,
         type: 2}
@@ -10855,7 +10855,7 @@ Prefab:
     - target: {fileID: 108648929774854206, guid: d62547ffc37e7db4b9e6ac9de7083de2,
         type: 2}
       propertyPath: m_Intensity
-      value: 0.7957747
+      value: 55.704227
       objectReference: {fileID: 0}
     - target: {fileID: 108648929774854206, guid: d62547ffc37e7db4b9e6ac9de7083de2,
         type: 2}
@@ -14744,7 +14744,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.39788735
+  m_Intensity: 55.704227
   m_Range: 15
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -14828,7 +14828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 5
+  punctualIntensity: 700
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1
@@ -14890,7 +14890,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.39788735
+  m_Intensity: 55.704227
   m_Range: 12
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -14913,7 +14913,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 5042
+  m_ColorTemperature: 5682
   m_UseColorTemperature: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -14974,7 +14974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 5
+  punctualIntensity: 700
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1
@@ -23764,7 +23764,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.39788735
+  m_Intensity: 55.704227
   m_Range: 15
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -23848,7 +23848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 5
+  punctualIntensity: 700
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1
@@ -41522,7 +41522,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.39788735
+  m_Intensity: 55.704227
   m_Range: 12
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -41545,7 +41545,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
-  m_ColorTemperature: 3980
+  m_ColorTemperature: 5682
   m_UseColorTemperature: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -41606,7 +41606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 5
+  punctualIntensity: 700
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1
@@ -42828,7 +42828,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.39788735
+  m_Intensity: 39.788734
   m_Range: 12
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -42912,7 +42912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 5
+  punctualIntensity: 500
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1
@@ -43446,7 +43446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 5
+  punctualIntensity: 700
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1
@@ -43552,8 +43552,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.39788735
-  m_Range: 1.2
+  m_Intensity: 39.788734
+  m_Range: 14
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -43575,7 +43575,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
-  m_ColorTemperature: 4703
+  m_ColorTemperature: 5682
   m_UseColorTemperature: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -43636,7 +43636,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 5
+  punctualIntensity: 500
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1
@@ -47116,7 +47116,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.39788735
+  m_Intensity: 55.704227
   m_Range: 15
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -47139,7 +47139,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 3580
+  m_ColorTemperature: 5682
   m_UseColorTemperature: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -47200,7 +47200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 5
+  punctualIntensity: 700
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1
@@ -47419,7 +47419,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.39788735
+  m_Intensity: 39.788734
   m_Range: 11.64
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -47503,7 +47503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 5
+  punctualIntensity: 500
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1
@@ -55779,7 +55779,7 @@ Prefab:
     - target: {fileID: 108696215450647206, guid: e777e6c22e8df25478ad11555567c055,
         type: 2}
       propertyPath: m_Intensity
-      value: 0.39788735
+      value: 55.704227
       objectReference: {fileID: 0}
     - target: {fileID: 108696215450647206, guid: e777e6c22e8df25478ad11555567c055,
         type: 2}
@@ -56810,7 +56810,7 @@ Prefab:
     - target: {fileID: 108696215450647206, guid: e777e6c22e8df25478ad11555567c055,
         type: 2}
       propertyPath: m_Intensity
-      value: 0.39788735
+      value: 55.704227
       objectReference: {fileID: 0}
     - target: {fileID: 108696215450647206, guid: e777e6c22e8df25478ad11555567c055,
         type: 2}
@@ -89053,7 +89053,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3.1830988
+  m_Intensity: 23.873241
   m_Range: 11.5
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -89076,7 +89076,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
-  m_ColorTemperature: 6129
+  m_ColorTemperature: 5682
   m_UseColorTemperature: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -89137,7 +89137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 40
+  punctualIntensity: 300
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1
@@ -98209,8 +98209,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.39788735
-  m_Range: 2.5
+  m_Intensity: 55.704227
+  m_Range: 7.1
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -98232,8 +98232,8 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
+  m_ColorTemperature: 5682
+  m_UseColorTemperature: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &1894686455
@@ -98293,7 +98293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 5
+  punctualIntensity: 700
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1
@@ -98988,7 +98988,7 @@ Prefab:
     - target: {fileID: 108925106389278056, guid: e777e6c22e8df25478ad11555567c055,
         type: 2}
       propertyPath: m_Intensity
-      value: 0.39788735
+      value: 23.873241
       objectReference: {fileID: 0}
     - target: {fileID: 108925106389278056, guid: e777e6c22e8df25478ad11555567c055,
         type: 2}
@@ -99013,7 +99013,7 @@ Prefab:
     - target: {fileID: 108925106389278056, guid: e777e6c22e8df25478ad11555567c055,
         type: 2}
       propertyPath: m_ColorTemperature
-      value: 3580
+      value: 5682
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e777e6c22e8df25478ad11555567c055, type: 2}

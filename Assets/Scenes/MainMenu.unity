@@ -14424,7 +14424,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4788592910325620, guid: 6a0f408101705474b98a6fb57278ae3a, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 54160233923882410, guid: 6a0f408101705474b98a6fb57278ae3a,
         type: 2}
@@ -29396,7 +29396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  directionalIntensity: 0.45
+  directionalIntensity: 6
   punctualIntensity: 600
   areaIntensity: 200
   m_InnerSpotPercent: 0
@@ -29426,7 +29426,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 0.6320754, g: 0.617168, b: 0.617168, a: 1}
-  m_Intensity: 0.45
+  m_Intensity: 6
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10

@@ -238,7 +238,7 @@ public class SpeechManager : MonoBehaviour {
                     if (!speechNumbers.Contains(number))
                     {
                         factText.text = null;
-                        speechText.text = "Albert: Oh thank god! a torch, this will help.";
+                        speechText.text = "Albert: Thank God, No guards! There has to be another way out of here, a back entrance maybe?";
                         Objective1.text = "Get inside of the house (completed)";
                         speechNumbers.Add(number);
                     }

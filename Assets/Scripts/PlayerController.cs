@@ -202,7 +202,7 @@ public class PlayerController : MonoBehaviour
         #endregion
 
         #region FlashLight
-        if (ItemManager.hasFlashLight == true)
+        if (DataManager.HasFlashLight == true)
             {
                 if (Input.GetButtonDown("FlashLight"))
                 {

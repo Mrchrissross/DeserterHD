@@ -4,6 +4,7 @@ public class DataManager : MonoBehaviour {
 
     private static int deaths, riskPoints, tempRiskPoints;
     private static string spawnPoint = "PlayerSpawnPoint1";
+    private static bool hasFlashLight;
 
     public static int Deaths
     {
@@ -50,6 +51,18 @@ public class DataManager : MonoBehaviour {
         set
         {
             spawnPoint = value;
+        }
+    }
+
+    public static bool HasFlashLight
+    {
+        get
+        {
+            return hasFlashLight;
+        }
+        set
+        {
+            hasFlashLight = value;
         }
     }
 }

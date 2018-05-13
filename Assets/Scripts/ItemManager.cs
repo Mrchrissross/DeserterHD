@@ -7,7 +7,6 @@ using System.Collections.Generic;
 public class ItemManager : MonoBehaviour {
 
     public static List<bool> hasKey = new List<bool>();
-    public static bool hasFlashLight;
     public static string visibleItem;
 
     private List<GameObject> keys = new List<GameObject>();
@@ -48,7 +47,7 @@ public class ItemManager : MonoBehaviour {
                 if (Input.GetButtonDown("Use"))
                 {
                     flashLight.SetActive(false);
-                    hasFlashLight = true;
+                    DataManager.HasFlashLight = true;
                     crossHairAnimation.SetBool("TargetVisible", false);
                 }
             }

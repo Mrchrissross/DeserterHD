@@ -28758,6 +28758,7 @@ MonoBehaviour:
   scoreText: {fileID: 1629699931}
   deathText: {fileID: 0}
   factText: {fileID: 1629699931}
+  enabledAltSpawning: 0
   spawnPoint: 1
   spawnLocation: 
   player: {fileID: 1372442807}
@@ -29396,7 +29397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  directionalIntensity: 6
+  directionalIntensity: 4
   punctualIntensity: 600
   areaIntensity: 200
   m_InnerSpotPercent: 0
@@ -29426,7 +29427,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 0.6320754, g: 0.617168, b: 0.617168, a: 1}
-  m_Intensity: 6
+  m_Intensity: 4
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10

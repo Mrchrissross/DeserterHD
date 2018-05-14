@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.03407363, g: 0.03402612, b: 0.028952599, a: 1}
+  m_IndirectSpecularColor: {r: 0.03407363, g: 0.03402612, b: 0.028952591, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -47426,7 +47426,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 39.788734
+  m_Intensity: 15.915494
   m_Range: 14
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -47449,7 +47449,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
-  m_ColorTemperature: 5682
+  m_ColorTemperature: 4703
   m_UseColorTemperature: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -47510,7 +47510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 500
+  punctualIntensity: 200
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1

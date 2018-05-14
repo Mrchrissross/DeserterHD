@@ -49519,8 +49519,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3.2308452
-  m_Range: 2.5600114
+  m_Intensity: 15.915494
+  m_Range: 14
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -49530,7 +49530,7 @@ Light:
     m_Strength: 1
     m_Bias: 0.05
     m_NormalBias: 0.4
-    m_NearPlane: 0.09
+    m_NearPlane: 0.1
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
@@ -49603,7 +49603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 1
   directionalIntensity: 3.1415927
-  punctualIntensity: 40.6
+  punctualIntensity: 200
   areaIntensity: 200
   m_InnerSpotPercent: 0
   lightDimmer: 1
@@ -94225,7 +94225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 1
-  directionalIntensity: 3
+  directionalIntensity: 1.5
   punctualIntensity: 600
   areaIntensity: 200
   m_InnerSpotPercent: 0
@@ -94255,7 +94255,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 0.6320754, g: 0.617168, b: 0.617168, a: 1}
-  m_Intensity: 3
+  m_Intensity: 1.5
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10

@@ -1,6 +1,8 @@
 # DeserterHD
 
-Deserter is a game that was created using unity primitive objects meaning no models were allowed to be used for the assignment.
+This was a "Game Design II - Assignment" to create a WWI based game using only primitive assets native to the Unity Game Engine. No models or assets were allowed to be used during this assignment and the focus was to be set on fire gameplay. 
+
+Deserter is a First-Person Shooter where the player must escape the prison whilst possibly collecting risks (by taking risks themselves).
 
 A video of the game may be seen below:
 
